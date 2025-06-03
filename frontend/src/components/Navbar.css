@@ -1,0 +1,49 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #2e7d32 !important;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-left: 1rem;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #2e7d32;
+  }
+  
+  .navbar .btn-login {
+    border: 2px solid #2e7d32;
+    color: #2e7d32;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+  }
+  
+  .navbar .btn-login:hover {
+    background-color: #2e7d32;
+    color: #fff;
+  }
+  
+  .navbar .dropdown-menu {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .dropdown-item:hover {
+    background-color: #e8f5e9;
+    color: #1b5e20;
+  }
+  

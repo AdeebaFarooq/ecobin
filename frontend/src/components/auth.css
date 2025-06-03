@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('images/bg2.jpg');
+  /* background: linear-gradient(135deg, #000000, #0f3d3e); */
+  font-family: 'Poppins', sans-serif;
+}
+
+.auth-form {
+  background-color: #ffffff;
+  padding: 2.5rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.auth-form h2 {
+  margin-bottom: 1.5rem;
+  color: #007f5f;
+  font-weight: 700;
+}
+
+.auth-form label {
+  display: block;
+  text-align: left;
+  margin: 1rem 0 0.4rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.auth-form input:focus {
+  outline: none;
+  border-color: #50C878;
+  box-shadow: 0 0 5px #50C87860;
+}
+
+.common-btn {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #50C878;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.common-btn:hover {
+  background-color: #3dbf6c;
+}
+
+.auth-form p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.auth-form a {
+  color: #50C878;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}

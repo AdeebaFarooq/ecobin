@@ -22,4 +22,4 @@ const recyclerSchema = new mongoose.Schema({
         default: "recycler",
     }}
 )
-export const Recycler= mongoose.model('Recycler',userSchema);
+export const Recycler= mongoose.model('Recycler', recyclerSchema);
