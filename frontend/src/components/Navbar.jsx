@@ -53,6 +53,7 @@ export default function Navbar() {
                 <Link className="nav-link" to="/authpage">Login</Link>
               </li>
             ) : (
+              
               <li className="nav-item">
                 <Link className="nav-link" to="/account">Account</Link>
               </li>

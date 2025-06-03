@@ -71,6 +71,7 @@ export const verifyUser = TryCatch(async (req, res) => {
 
   res.json({
     message: "User Registered",
+    //  role: user.role
   });
 });
 
@@ -97,6 +98,7 @@ export const loginUser = TryCatch(async (req, res) => {
 
   res.json({
     message: `Welcome back ${user.name}`,
+     role: user.role, 
     token,
     user,
   });

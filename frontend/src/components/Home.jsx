@@ -23,7 +23,7 @@ export default function Home() {
             <p className="lead text-muted">
               Join our eco-friendly mission. Schedule free pickups and recycle old electronics easily while earning rewards.
             </p>
-            <Link to="/authportal" className="btn btn-success mt-4 px-4 py-2 rounded-pill">
+            <Link to="/authpage" className="btn btn-success mt-4 px-4 py-2 rounded-pill">
               Get Started
             </Link>
           </div>

@@ -26,8 +26,8 @@ const Login = () => {
       });
 
       // // Save to localStorage
-      // localStorage.setItem("token", res.data.token);
-      // localStorage.setItem("role", res.data.user.role); // either "user" or "recycler"
+       localStorage.setItem("token", res.data.token);
+       localStorage.setItem("role", res.data.user.role); // either "user" or "recycler"
       // localStorage.setItem("user", JSON.stringify(res.data.user));
 
       toast.success(res.data.message);

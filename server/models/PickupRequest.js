@@ -1,6 +1,10 @@
 import mongoose from 'mongoose';
 
 const pickupRequestSchema = new mongoose.Schema({
+  email :{
+    type: String,
+    required:true 
+  },
   eWasteType: {
     type: String,
     enum: ['Laptop', 'Mobile', 'Tablet', 'TV', 'Fridge', 'AC', 'Other'],

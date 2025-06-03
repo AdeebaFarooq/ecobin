@@ -15,7 +15,7 @@ const App = () => {
       <Routes>
         {/* Define your routes here */}
         <Route path="/" element={<Home/>} />
-        <Route path="/authpage" element={<  AuthPortal/>} />
+        <Route path="/authpage" element={<AuthPortal/>} />
         <Route path="/requestpickup" element={<RequestPickup/>} />
         <Route path="/user/login" element={<Login/>} />
         <Route path="/recycler/login" element={<Login/>} />
